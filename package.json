@@ -1,0 +1,10 @@
+{
+  "name": "bsale-store-api",
+  "version": "1.0.0",
+  "description": "Bsale Store",
+  "scripts": {
+    "dev": "serverless offline start"
+  },
+  "author": "Rodrigo Berrios",
+  "license": "MIT"
+}
