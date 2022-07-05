@@ -1,5 +1,6 @@
 service: bsale-store-api
 frameworkVersion: '3'
+useDotenv: true
 
 provider:
   name: aws
@@ -11,4 +12,5 @@ functions:
     handler: handler.hello
 
 plugins:
+  - serverless-dotenv-plugin
   - serverless-offline
