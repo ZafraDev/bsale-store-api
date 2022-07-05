@@ -8,8 +8,12 @@ provider:
   region: us-west-2
 
 functions:
-  hello:
-    handler: handler.hello
+  getCategories:
+    handler: src/services/getCategories.handler
+    events:
+      - httpApi:
+          path: /categories
+          method: get
 
 custom:
   bundle:
