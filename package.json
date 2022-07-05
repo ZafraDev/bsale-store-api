@@ -10,5 +10,8 @@
   "devDependencies": {
     "serverless-dotenv-plugin": "^4.0.1",
     "serverless-offline": "^8.8.0"
+  },
+  "dependencies": {
+    "serverless-mysql": "^1.5.4"
   }
 }
