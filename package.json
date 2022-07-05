@@ -6,5 +6,8 @@
     "dev": "serverless offline start"
   },
   "author": "Rodrigo Berrios",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-offline": "^8.8.0"
+  }
 }
