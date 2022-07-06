@@ -14,6 +14,12 @@ functions:
       - httpApi:
           path: /categories
           method: get
+  getProductsByCategory:
+    handler: src/services/getProductsByCategory.handler
+    events:
+      - httpApi:
+          path: /products/categories/{categoryId}
+          method: get
 
 custom:
   bundle:
