@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Bsale Store",
   "scripts": {
-    "dev": "serverless offline start"
+    "dev": "serverless offline start",
+    "deploy": "serverless deploy"
   },
   "author": "Rodrigo Berrios",
   "license": "MIT",
