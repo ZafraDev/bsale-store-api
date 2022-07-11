@@ -29,3 +29,4 @@ custom:
 plugins:
   - serverless-dotenv-plugin
   - serverless-offline
+  - serverless-auto-swagger
