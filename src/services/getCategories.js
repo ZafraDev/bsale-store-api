@@ -1,7 +1,7 @@
 const db = require("../config/db");
-const { response } = require("../utils/response");
+const { handleStructure, response } = require("../utils");
 
-exports.handler = async (event, context) => {
+exports.handler = handleStructure(async (event, context) => {
   const results = await db.query("select * from category");
 
   db.end();
@@ -10,4 +10,4 @@ exports.handler = async (event, context) => {
     totalItems: results.length,
     items: results,
   });
-};
+});

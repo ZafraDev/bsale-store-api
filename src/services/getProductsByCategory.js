@@ -1,7 +1,7 @@
 const db = require("../config/db");
-const { response } = require("../utils/response");
+const { handleStructure, response } = require("../utils");
 
-exports.handler = async (event, context) => {
+exports.handler = handleStructure(async (event, context) => {
   const { categoryId } = event.pathParameters;
   const { search, limit, page } = { ...event.queryStringParameters };
 
@@ -44,4 +44,4 @@ exports.handler = async (event, context) => {
     limit: LIMIT,
     totalItems: total,
   });
-};
+});
