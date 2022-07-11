@@ -3,7 +3,7 @@
 Proyecto API para el desafío de la Tienda Online de Bsale
 
 * [Ver Demo final](http://bsale-store.s3-website-us-west-2.amazonaws.com)
-* [Ver Documentación del API](http://bsale-store.s3-website-us-west-2.amazonaws.com)
+* [Ver Documentación del API](https://sdvhbzk7tl.execute-api.us-west-2.amazonaws.com/swagger)
 
 ## Acerca del Proyecto
 El proyecto es la solución del Desafío para la empresa Bsale, en este caso es el API del proyecto, el cual fue desarrollado con una arquitectura Serverless y desplegado en AWS usando Javascript como lenguaje de programación y Nodejs como entorno de ejecución.
